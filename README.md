@@ -1,12 +1,28 @@
-# React + Vite
+## **2️⃣ Frontend Admin - Qr Reader**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# QRReader - Frontend Admin
 
-Currently, two official plugins are available:
+![QRPay](https://img.shields.io/badge/QRPay-Admin-red)
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)
+![Firebase](https://img.shields.io/badge/Firebase-Auth%20%26%20DB-orange?logo=firebase)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Descrição
+Painel administrativo do QR Reader. Permite leitura de QR codes, validação via API, disponibilização de produtos e controle de códigos válidos/inválidos.
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
+- Leitura de QR codes gerados pelos usuários
+- Validação e invalidação de códigos
+- Registro e disponibilização de produtos
+- Controle de status em tempo real
+- Autenticação de administradores via Firebase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologias
+- **React** (UI)
+- **Firebase** (Autenticação)
+- **Axios** (requisições HTTP)
+- **Tailwind CSS** (estilização)
+
+## 💻 Execução
+
+Para testar a aplicação [acesse o site](https://pagamento-6bm8-git-main-joao-niches-projects.vercel.app) e simule um pagamento. Esse pagamento irá gerar um Qr Code de leitura única do produto escolhido. Para validação desse Qr Code acesse o [painel de administrador](https://qr-reader-git-main-joao-niches-projects.vercel.app).
